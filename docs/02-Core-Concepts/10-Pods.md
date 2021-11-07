@@ -5,7 +5,7 @@ In this section, we will take a look at PODS.
 - POD introduction
 - How to deploy pod?
 
-#### Kubernetes doesn't deploy containers directly on the worker node.
+#### Kubernetes doesn't deploy containers directly on the worker node , the container are encapsulated in a Kubernetes object called Pod
 
   ![pod](../../images/pod.PNG)
   
