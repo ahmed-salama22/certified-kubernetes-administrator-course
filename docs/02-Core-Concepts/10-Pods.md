@@ -21,8 +21,8 @@ In this section, we will take a look at PODS.
   
 ## Multi-Container PODs
 - A single pod can have multiple containers except for the fact that they are usually not multiple containers of the **`same kind`**.
-- the additional containers that can added to the pod are supporting for the container like processing some files , helper container live along side to the contaienr
-  , the two container can communicate with each others directly by refering to each others by localhost as they share the same network space and they can share the same storage
+- the additional containers that can added to the pod are supporing the container in like processing some files , it lives along side to the contaienr
+  , the two container can communicate with each others directly by refering to each others by localhost as they share the same namespace and they can share the same storage
   as well .
   
   ![pod3](../../images/pod3.PNG)
