@@ -14,12 +14,16 @@ In this section, we will take a look at PODS.
 
 ![pod1](../../images/pod1.PNG)
 
-#### Pod will have a one-to-one relationship with containers running your application.
+#### Pod will have a one-to-one relationship with containers running your application and if u need to scale anothe pod will be created and if
+#### the node hasn't additional capacity a new node is created in the cluster . 
 
   ![pod2](../../images/pod2.PNG)
   
 ## Multi-Container PODs
 - A single pod can have multiple containers except for the fact that they are usually not multiple containers of the **`same kind`**.
+- the additional containers that can added to the pod are supporting for the container like processing some files , helper container live along side to the contaienr
+  , the two container can communicate with each others directly by refering to each others by localhost as they share the same network space and they can share the same storage
+  as well .
   
   ![pod3](../../images/pod3.PNG)
   
