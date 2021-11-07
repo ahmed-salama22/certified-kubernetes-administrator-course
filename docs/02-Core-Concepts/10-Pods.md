@@ -28,13 +28,15 @@ In this section, we will take a look at PODS.
   ![pod3](../../images/pod3.PNG)
   
 ## Docker Example (Docker Link)
+- in it we need to make all what the pod make but manually where we create a helper for each container and link them with the container 
+  and make a map between them
   
   ![pod4](../../images/pod4.PNG)
   
 ## How to deploy pods?
 Lets now take a look to create a nginx pod using **`kubectl`**.
 
-- To deploy a docker container by creating a POD.
+- To deploy a docker container by creating a POD , first it make the pod and deploy the docker container image in it 
   ```
   $ kubectl run nginx --image nginx
   ```
