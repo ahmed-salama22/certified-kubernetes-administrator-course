@@ -69,7 +69,7 @@ In this section, we will take a look at TLS certificate creation in kubernetes
 
   ![api1](../../images/api1.PNG)
   
-  ![api2](../../images/api2.PNG)
+  ![api2](../../images/Untitled.png)
   
 ## Kubectl Nodes (Server Cert)
 
